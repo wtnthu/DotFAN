@@ -1,0 +1,64 @@
+# lambda for each loss
+lambda_pose_l2: 6.0
+lambda_id_l2: 8.0
+lambda_rec: 5.0
+lambda_gp: 10.0
+lambda_cls_id: 1.0
+lambda_cls: 1.0
+lambda_identical: 5.0
+lambda_identity: 0.3
+lambda_pose_symmetry: 5.0
+
+# whether to use each loss
+loss_rec: True
+loss_identity: True
+loss_pose_symmetry: False
+loss_cls_id: False
+loss_rec_with_mask: False
+
+
+# data preprocess setting
+gray: False
+face_crop_size: 112
+image_size: 115
+
+# model's hyperparameters
+c_dim: 12
+c2_dim: 13
+g_conv_dim: 16
+d_conv_dim: 64
+g_repeat_num: 6
+d_repeat_num: 6
+g_lr: 0.0001  #   has changed  #
+d_lr: 0.0001  #   has changed  #
+beta1: 0.5
+beta2: 0.999
+d_train_repeat: 2
+g_train_repeat: 1
+num_epochs: 20
+num_epochs_decay: 10
+G_net: "Generator"
+D_net: "Discriminator"
+L_pretrained: "model_casia_color.pth"
+P_pretrained: "casia_pose.pth.tar"
+norm: "batch"
+
+# path
+display_f: 300
+save_dir: 'v1'
+face_image_path: '/home/frank/data/dataset/face_dataset/imgs_casia_rgb'
+face_image_pathB: '/home/frank/data/dataset/face_dataset'
+face_image_path_val: 'data/test_pose'
+pretrained_model: ''
+test_model: ''
+test_single_path: '/home/kangyu/Dataset/pose_9a_new'
+
+#other settings
+taget_pose: 'data/ref_pie_pose'
+test_mode: 'norm'
+use_pose_numbers: 1
+expression_w: 0.0
+num_workers: 2
+single_out: True
+mode: "train"
+visualize: False
