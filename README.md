@@ -5,24 +5,6 @@ The source code for the paper "DotFAN: A Domain-transferred Face Augmentation Ne
 ### Installation
 **1.Install dependency**
 pip install -r requirement.txt
-**Prerequisites**
-    - torch==0.4.1
-    - pyyaml
-    - matplotlib==2.1.2
-    - tqdm==4.23.4
-    - mxnet_cu90==1.2.1
-    - scipy==1.0.0
-    - bcolz==1.2.1
-    - easydict==1.7
-    - opencv_python==3.4.0.12
-    - Pillow==5.2.0
-    - mxnet==1.2.1.post1
-    - scikit_learn==0.19.2
-    - tensorboardX==1.2
-    - torchvision==0.2.1
-    - tensorflow==1.12.0
-    - scikit-image
-    - numpy==1.15.0
     
 **2.Download the face recognition and 3D face model (3DMM) model to ./data/pretrained_ckpt as below:**
 https://drive.google.com/drive/folders/1DuY5rGwCeZtrNfYg6tLkLc2T1O0rGu1M?usp=sharing
