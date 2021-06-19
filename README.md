@@ -1,8 +1,8 @@
 # DotFAN
 The source code for the paper "DotFAN: A Domain-transferred Face Augmentation Network for Pose and Illumination Invariant Face Recognition"
 
-Quick Start
-Installation
+> Quick Start
+> Installation
 
 Prepare the feature extracted from any face recognition model 
 https://drive.google.com/drive/folders/1DuY5rGwCeZtrNfYg6tLkLc2T1O0rGu1M?usp=sharing
