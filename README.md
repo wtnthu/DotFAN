@@ -1,5 +1,5 @@
 # [DotFAN: A Domain-transferred Face Augmentation Network for Pose and Illumination Invariant Face Recognition](https://arxiv.org/pdf/2002.09859.pdf)
-The source code for the paper "DotFAN: A Domain-transferred Face Augmentation Network for Pose and Illumination Invariant Face Recognition"(https://arxiv.org/pdf/2002.09859.pdf)
+The source code for the paper "DotFAN: A Domain-transferred Face Augmentation Network for Pose and Illumination Invariant Face Recognition"(https://www.ee.nthu.edu.tw/cwlin/pub/tip_face_2021.pdf) [IEEE TIP 2021]
 
 ## Quick Start
 ### Installation
