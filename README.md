@@ -1,5 +1,5 @@
 # [DotFAN: A Domain-transferred Face Augmentation Network for Pose and Illumination Invariant Face Recognition](https://www.ee.nthu.edu.tw/cwlin/pub/tip_face_2021.pdf)
-The source code for the paper: H.-C. Shao, K.-Y. Liu, W.-T. Su, C.-W. Lin, and J. Lu “DotFAN: A domain-transferred face augmentation net" IEEE Trans. Image Processing, vol. 30, pp. 8759−8772, Nov. 2021 [Paper link](https://www.ee.nthu.edu.tw/cwlin/pub/tip_face_2021.pdf).
+The source code for the paper: H.-C. Shao, K.-Y. Liu, W.-T. Su, C.-W. Lin, and J. Lu “DotFAN: A domain-transferred face augmentation net" IEEE Trans. Image Processing, vol. 30, pp. 8759−8772, Nov. 2021 [(Paper link)](https://www.ee.nthu.edu.tw/cwlin/pub/tip_face_2021.pdf).
 
 ## Quick Start
 ### Installation
